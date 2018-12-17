@@ -1,0 +1,32 @@
+{
+  "name": "ravencoin-zmq-decoder",
+  "version": "1.0.0",
+  "description": "decode transaction and block hex strings returned from zmq",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ravencoinjs-lib": "github:raven-community/ravencoinjs-lib#master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raven-community/ravencoin-zmq-decoder.git"
+  },
+  "keywords": [
+    "ravencoin",
+    "transaction",
+    "rawtx",
+    "zmq",
+    "zmq decode"
+  ],
+  "author": "Gabriel Cardona @ bitcoin.com",
+  "contributors":[
+    "MSFTserver"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raven-community/ravencoin-zmq-decoder/issues"
+  },
+  "homepage": "https://github.com/raven-community/ravencoin-zmq-decoder#readme"
+}
