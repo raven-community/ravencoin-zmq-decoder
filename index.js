@@ -95,7 +95,7 @@ module.exports = class RavencoinZMQDecoder {
 
     return {
       "transactions": block.transactions.length,
-      "totalBCHSent": totalOuts,
+      "totalRVNSent": totalOuts,
       "reward": 500000000000,
       "prevHash": block.prevHash.toString('hex'),
       "id": block.getHash().toString('hex'),
