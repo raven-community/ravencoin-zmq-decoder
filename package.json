@@ -1,13 +1,13 @@
 {
   "name": "ravencoin-zmq-decoder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "decode transaction and block hex strings returned from zmq",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "ravencoinjs-lib": "github:raven-community/ravencoinjs-lib#master"
+    "ravencoinjs-lib": "github:raven-community/ravencoinjs-lib/tree/1.0.0"
   },
   "repository": {
     "type": "git",
